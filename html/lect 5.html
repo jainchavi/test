@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Input Tags</title>
+</head>
+<body>
+    <h3>HTML FORM</h3>
+    <form action="backend.php">
+        <label for="name">NAME</label>
+        <div>
+             <input type="text" name="My NAME" id="name">
+        </div>
+        <br>
+        <div>
+            ROLE: <input type="text" name="MyROLE">
+        </div>
+        <br>
+        <div>
+            EMAIL: <input type="text" name="MyEMAIL">
+        </div>
+        <br>
+        <div>
+            GENDER: MALE<input type="radio" name="MyGENDER"> FEMALE<input type="radio" name="MyGENDER">
+        </div>
+        <br>
+        <div>
+            DATE: <input type="date" name="MyDATE" >
+        </div>
+        <br>
+        <div>
+            BONUS: <input type="number" name="MyBONUS">
+        </div>
+        <br>
+        <div>
+            ELIGIBLE: <input type="checkbox" name="MyELIGIBILITY">
+        </div>
+        <br>
+        <div>
+            Write About Yourself: <br><textarea name="MyText" cols="90" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="MyCar" id="car">
+                <option value="BMW">BMW</option>
+                <option value="ind">Indica</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="SUBMIT IT NOW">
+        </div>
+        <div>
+            <input type="reset" value="RESET IT NOW">
+        </div>
+        <br>
+    </form>
+</body>
+</html>
